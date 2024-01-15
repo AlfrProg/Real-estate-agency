@@ -1,0 +1,67 @@
+@media screen and (max-width: 1200px) {
+    header {
+        padding: 4px;
+    }
+
+    .img {
+        max-width: 50px;
+        margin-left: 0px;
+
+    }
+
+    header ul li {
+        width: 50px;
+        margin: 5px;
+        padding: 1px;
+    }
+
+    header nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 7px;
+        padding: 5px;
+    }
+
+    .Inf {
+        background: gainsboro;
+        padding: 1px;
+        margin-top: 0px;
+    }
+
+    .Inf h1 {
+        font-size: 20px;
+
+    }
+
+    .imagem {
+        width: 100px;
+        height: 100px;
+        margin-left: 20px;
+    }
+
+    .cols {
+        display: grid;
+        padding: 10px;
+        justify-content: space-evenly;
+    }
+
+    .cols {
+        display: grid;
+        padding: 4rem 1rem;
+        justify-content: space-evenly;
+    }
+
+    .cols-4 img {
+        max-width: 100%;
+
+    }
+
+    .cols-4 {
+        grid-template-columns: repeat(2, 0.4fr);
+        gap: 0.1rem;
+        text-align: center;
+        justify-content: center;
+    }
+
+
+}

@@ -1,0 +1,70 @@
+/* Adicione aqui o seu estilo CSS para a página de localização */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    font-family: 'Contrail One', 'Geologica', sans-serif;
+}
+
+header {
+    padding: 5px;
+    background: #256252;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img {
+    max-width: 150px;
+    margin-left: 250px;
+}
+
+header ul {
+    display: inline-block;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul li {
+    width: 250px;
+    margin: 15px;
+    padding: 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 15px;
+}
+
+main {
+    margin-top: -10px;
+}
+
+.location-section {
+    background: #f2f2f2;
+    padding: 40px;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.map {
+    margin-top: 20px;
+}
